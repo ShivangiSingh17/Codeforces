@@ -1,0 +1,25 @@
+# include <stdio.h>
+int main()
+{
+int a,b,c,time=0,max;
+scanf("%d %d %d",&a,&b,&c);
+if (a>b && a>c)
+{
+ max=a;
+}
+else if(b>a && b>c)
+{
+    max=b;
+}
+else
+{
+    max=c;
+}
+int r=(a+b+c)-max;
+while(max>=r)
+{
+    r=r+1;
+    time=time+1;
+}
+printf("%d",time);
+}
