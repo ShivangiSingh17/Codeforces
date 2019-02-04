@@ -1,0 +1,13 @@
+# include <stdio.h>
+int main()
+{
+int i,t,x,l,v,r,count=0;
+scanf("%d",&t);
+for (i=1;i<=t;i++)
+{
+scanf("%d %d %d %d",&x,&v,&l,&r);
+count=(x/v)-(r/v)+(l-1)/v;    
+printf("%d\n",count);
+}
+return 0;
+}
