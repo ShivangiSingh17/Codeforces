@@ -1,2 +1,2 @@
 # Codeforces
-This repository contains solutins of codeforces questions solved.
+This repository contains solutions of the codeforces problems solved.
